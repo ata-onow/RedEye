@@ -112,7 +112,7 @@
 		"@mikro-orm/entity-generator": "5.8.4",
 		"@mikro-orm/migrations": "5.8.4",
 		"@mikro-orm/seeder": "5.8.4",
-		"@moonrepo/cli": "1.9.2",
+		"@moonrepo/cli": "1.19.0",
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.5.0",
 		"@testing-library/user-event": "^7.2.1",
