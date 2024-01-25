@@ -2850,112 +2850,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redeye/brute-ratel-parser@workspace:*, @redeye/brute-ratel-parser@workspace:parsers/brute-ratel-parser":
-  version: 0.0.0-use.local
-  resolution: "@redeye/brute-ratel-parser@workspace:parsers/brute-ratel-parser"
-  dependencies:
-    "@redeye/models": "workspace:*"
-    "@redeye/parser-core": "workspace:*"
-  bin:
-    brute-ratel-parser: ./dist/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/client@workspace:*, @redeye/client@workspace:applications/client":
-  version: 0.0.0-use.local
-  resolution: "@redeye/client@workspace:applications/client"
-  dependencies:
-    "@redeye/graph": "workspace:*"
-    "@redeye/ui-styles": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/cobalt-strike-parser@workspace:*, @redeye/cobalt-strike-parser@workspace:parsers/cobalt-strike-parser":
-  version: 0.0.0-use.local
-  resolution: "@redeye/cobalt-strike-parser@workspace:parsers/cobalt-strike-parser"
-  dependencies:
-    "@redeye/models": "workspace:*"
-    "@redeye/parser-core": "workspace:*"
-  bin:
-    cobalt-strike-parser: ./dist/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/e2e@workspace:applications/redeye-e2e":
-  version: 0.0.0-use.local
-  resolution: "@redeye/e2e@workspace:applications/redeye-e2e"
-  dependencies:
-    "@redeye/client": "workspace:*"
-    "@redeye/server": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/graph@workspace:*, @redeye/graph@workspace:packages/graph":
-  version: 0.0.0-use.local
-  resolution: "@redeye/graph@workspace:packages/graph"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/landing@workspace:docs/landing-page":
-  version: 0.0.0-use.local
-  resolution: "@redeye/landing@workspace:docs/landing-page"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/migrations@workspace:*, @redeye/migrations@workspace:packages/migrations":
-  version: 0.0.0-use.local
-  resolution: "@redeye/migrations@workspace:packages/migrations"
-  dependencies:
-    "@redeye/models": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/models@workspace:*, @redeye/models@workspace:packages/models":
-  version: 0.0.0-use.local
-  resolution: "@redeye/models@workspace:packages/models"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/parser-core@workspace:*, @redeye/parser-core@workspace:parsers/parser-core":
-  version: 0.0.0-use.local
-  resolution: "@redeye/parser-core@workspace:parsers/parser-core"
-  dependencies:
-    "@redeye/models": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/server@workspace:*, @redeye/server@workspace:applications/server":
-  version: 0.0.0-use.local
-  resolution: "@redeye/server@workspace:applications/server"
-  dependencies:
-    "@redeye/brute-ratel-parser": "workspace:*"
-    "@redeye/cobalt-strike-parser": "workspace:*"
-    "@redeye/migrations": "workspace:*"
-    "@redeye/models": "workspace:*"
-    "@redeye/parser-core": "workspace:*"
-    "@redeye/sliver-parser": "workspace:*"
-  bin:
-    server: ./dist/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/sliver-parser@workspace:*, @redeye/sliver-parser@workspace:parsers/sliver-parser":
-  version: 0.0.0-use.local
-  resolution: "@redeye/sliver-parser@workspace:parsers/sliver-parser"
-  dependencies:
-    "@redeye/models": "workspace:*"
-    "@redeye/parser-core": "workspace:*"
-  bin:
-    sliver-parser: ./dist/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/ui-styles@workspace:*, @redeye/ui-styles@workspace:packages/ui-styles":
-  version: 0.0.0-use.local
-  resolution: "@redeye/ui-styles@workspace:packages/ui-styles"
-  languageName: unknown
-  linkType: soft
-
 "@remix-run/router@npm:1.7.1":
   version: 1.7.1
   resolution: "@remix-run/router@npm:1.7.1"
@@ -9107,7 +9001,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.1#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -14905,7 +14799,7 @@ __metadata:
     type-graphql: ^2.0.0-beta.1
     typedoc: ^0.24.8
     typedoc-plugin-markdown: ^3.15.4
-    typescript: ^5.0.4
+    typescript: ^5.3.3
     typescript-json-schema: ^0.57.0
     uuid: ^8.3.2
     vite: ^4.3.9
@@ -15174,7 +15068,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>, resolve@patch:resolve@~1.22.1#~builtin<compat/resolve>":
   version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=07638b"
   dependencies:
     is-core-module: ^2.12.0
     path-parse: ^1.0.7
@@ -15187,7 +15081,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -15200,7 +15094,7 @@ __metadata:
 
 "resolve@patch:resolve@~1.19.0#~builtin<compat/resolve>":
   version: 1.19.0
-  resolution: "resolve@patch:resolve@npm%3A1.19.0#~builtin<compat/resolve>::version=1.19.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.19.0#~builtin<compat/resolve>::version=1.19.0&hash=07638b"
   dependencies:
     is-core-module: ^2.1.0
     path-parse: ^1.0.6
@@ -17109,13 +17003,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:*, typescript@npm:^5.0.4":
+"typescript@npm:*":
   version: 5.1.6
   resolution: "typescript@npm:5.1.6"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: b2f2c35096035fe1f5facd1e38922ccb8558996331405eb00a5111cc948b2e733163cc22fab5db46992aba7dd520fff637f2c1df4996ff0e134e77d3249a7350
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "typescript@npm:5.3.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 2007ccb6e51bbbf6fde0a78099efe04dc1c3dfbdff04ca3b6a8bc717991862b39fd6126c0c3ebf2d2d98ac5e960bcaa873826bb2bb241f14277034148f41f6a2
   languageName: node
   linkType: hard
 
@@ -17139,9 +17043,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>":
   version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=77c9e2"
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -17149,23 +17053,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@~4.9.5#~builtin<compat/typescript>":
-  version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"
+"typescript@patch:typescript@^5.3.3#~builtin<compat/typescript>":
+  version: 5.3.3
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 1f8f3b6aaea19f0f67cba79057674ba580438a7db55057eb89cc06950483c5d632115c14077f6663ea76fd09fce3c190e6414bb98582ec80aa5a4eaf345d5b68
+  checksum: f61375590b3162599f0f0d5b8737877ac0a7bc52761dbb585d67e7b8753a3a4c42d9a554c4cc929f591ffcf3a2b0602f65ae3ce74714fd5652623a816862b610
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@~4.9.5#~builtin<compat/typescript>":
+  version: 4.9.5
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=701156"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@~5.0.4#~builtin<compat/typescript>":
   version: 5.0.4
-  resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"
+  resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d26b6ba97b6d163c55dbdffd9bbb4c211667ebebc743accfeb2c8c0154aace7afd097b51165a72a5bad2cf65a4612259344ff60f8e642362aa1695c760d303ac
+  checksum: 6a1fe9a77bb9c5176ead919cc4a1499ee63e46b4e05bf667079f11bf3a8f7887f135aa72460a4c3b016e6e6bb65a822cb8689a6d86cbfe92d22cc9f501f09213
   languageName: node
   linkType: hard
 
