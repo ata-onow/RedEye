@@ -50,7 +50,7 @@
 		"@emotion/styled": "^11.3.0",
 		"@fontsource/redacted-script": "^4.5.13",
 		"@mikro-orm/better-sqlite": "5.8.4",
-		"@mikro-orm/core": "5.8.4",
+		"@mikro-orm/core": "5.9.7",
 		"@openfonts/ibm-plex-mono_all": "^1.44.2",
 		"@openfonts/ibm-plex-sans_all": "^1.44.2",
 		"@tanstack/react-query": "^4.1.3",
