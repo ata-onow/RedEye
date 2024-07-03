@@ -21,7 +21,7 @@ RUN npx pkg-fetch --platform linux --node-range node18
 RUN yarn release:linux
 
 ### CORE IMAGE ###
-FROM debian as redeye-core
+FROM debian:12.6 as redeye-core
 WORKDIR /app
 COPY --from=redeye-linux-builder /app/release/linux .
 ENTRYPOINT [ "/bin/bash", "-l", "-c" ]
