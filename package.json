@@ -41,7 +41,7 @@
 		"release:windows": "yarn node ./scripts/create-release.mjs --os windows"
 	},
 	"dependencies": {
-		"@apollo/server": "^4.7.0",
+		"@apollo/server": "^4.10.0",
 		"@blueprintjs/core": "^5.2.0",
 		"@blueprintjs/datetime": "^5.0.8",
 		"@blueprintjs/select": "^5.0.8",
@@ -64,7 +64,7 @@
 		"crypto-js": "^4.0.0",
 		"d3": "^6.7.0",
 		"dayjs": "^1.11.7",
-		"express": "^4.17.1",
+		"express": "^4.21.0",
 		"express-fileupload": "^1.2.0",
 		"fs-extra": "^9.0.1",
 		"graphql": "^16.6.0",
