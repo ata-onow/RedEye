@@ -41,7 +41,7 @@
 		"release:windows": "yarn node ./scripts/create-release.mjs --os windows"
 	},
 	"dependencies": {
-		"@apollo/server": "^4.7.0",
+		"@apollo/server": "^5.0.0",
 		"@blueprintjs/core": "^5.2.0",
 		"@blueprintjs/datetime": "^5.0.8",
 		"@blueprintjs/select": "^5.0.8",
