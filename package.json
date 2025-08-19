@@ -107,7 +107,7 @@
 	"devDependencies": {
 		"@babel/plugin-proposal-class-properties": "^7.18.6",
 		"@babel/plugin-proposal-decorators": "^7.20.13",
-		"@changesets/cli": "^2.22.0",
+		"@changesets/cli": "^2.29.6",
 		"@emotion/babel-plugin": "^11.10.0",
 		"@mikro-orm/entity-generator": "5.8.4",
 		"@mikro-orm/migrations": "5.8.4",
